@@ -25,3 +25,6 @@ serde_with = "2"
 strum = { version = "0.24", features = ["derive"] }
 thiserror = "1"
 tokio = { version = "1", features = ["full"] }
+
+[package.metadata.release]
+pre-release-hook = ["cargo", "test"]
