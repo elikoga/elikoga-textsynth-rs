@@ -1,7 +1,15 @@
 [package]
 name = "elikoga-textsynth"
 version = "0.1.0"
+authors = ["Eli Kogan-Wang <elikowa@gmail.com>"]
 edition = "2021"
+description = "Text synth api client"
+documentation = "https://docs.rs/elikogs-textsynth/"
+homepage = "https://github.com/elikoga/elikoga-textsynth-rs/"
+repository = "https://github.com/elikoga/elikoga-textsynth-rs/"
+license = "MIT"
+keywords = ["textsynth", "nlp", "gpt", "textgen", "api"]
+categories = ["api-bindings", "text-processing", "web-programming::http-client"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
